@@ -7,22 +7,3 @@
 [33mPress CTRL+C to quit[0m
 118.151.210.163 - - [03/Dec/2024 17:17:33] "GET / HTTP/1.1" 200 -
 118.151.210.163 - - [03/Dec/2024 17:17:51] "GET / HTTP/1.1" 200 -
-178.128.21.6 - - [03/Dec/2024 17:29:38] code 400, message Bad request version ('À\x14À')
-178.128.21.6 - - [03/Dec/2024 17:29:38] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03)\x05ÐOOÿ³(Õ_¢`Z{)®e¦Ê\x1f¼¤µ4\x05øÎ>²]j\x94\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
-154.212.141.191 - - [03/Dec/2024 23:25:30] "GET / HTTP/1.1" 200 -
-198.235.24.33 - - [04/Dec/2024 01:31:08] "GET / HTTP/1.0" 200 -
- * Serving Flask app 'app'
- * Debug mode: off
-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.31.18.246:5000
-[33mPress CTRL+C to quit[0m
-49.205.241.226 - - [06/Dec/2024 14:49:11] "GET / HTTP/1.1" 200 -
-49.205.241.226 - - [06/Dec/2024 14:49:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-49.205.241.226 - - [06/Dec/2024 14:49:15] "GET / HTTP/1.1" 200 -
-49.205.241.226 - - [06/Dec/2024 14:49:44] "GET / HTTP/1.1" 200 -
-49.205.241.226 - - [06/Dec/2024 14:58:00] "GET / HTTP/1.1" 200 -
-154.213.185.206 - - [06/Dec/2024 16:50:21] code 400, message Bad request syntax ('JDWP-Handshake')
-154.213.185.206 - - [06/Dec/2024 16:50:21] "[31m[1mJDWP-Handshake[0m" 400 -
-49.205.241.226 - - [06/Dec/2024 18:24:11] "GET / HTTP/1.1" 200 -
