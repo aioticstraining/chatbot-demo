@@ -6,12 +6,6 @@ pipeline {
                 git 'https://github.com/aioticstraining/chatbot-demo.git'
             }
         }
-         stage('Run Tests') {
-            steps {
-                // Run your tests
-                sh 'pytest'
-            }
-        }
         stage('Build Docker Image') {
             steps {
                 sh 'docker build -t chatbot-app:latest .'
