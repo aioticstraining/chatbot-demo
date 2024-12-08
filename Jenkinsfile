@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent agent-vm1
     stages {
         stage('Clone Repository') {
             steps {
