@@ -1,9 +1,5 @@
 pipeline {
-    agent {
-        node {
-            label 'chatbot'
-        }
-    }
+    agent any
     stages {
         stage('Clone Repository') {
             steps {
