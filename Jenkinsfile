@@ -6,10 +6,11 @@ pipeline {
                 git 'https://github.com/aioticstraining/chatbot-demo.git'
             }
         }
-    stage('SonarQube Analysis') {
-            def scannerHome = tool 'SonarScanner';
-            withSonarQubeEnv() {
-              sh "${scannerHome}/bin/sonar-scanner"
+        stage('SonarQube Analysis') {
+            steps {
+                withSonarQubeEnv('SonarQube Server') {
+                    sh 'sonar-scanner'
+                }
             }
         }
         stage('Build Docker Image') {
