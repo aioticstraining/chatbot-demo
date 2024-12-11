@@ -10,7 +10,7 @@ pipeline {
             steps {
               withSonarQubeEnv('SonarQube Server') {
                     sh '''
-                sonar-scanner -Dsonar.login=$SONAR_TOKEN
+                sonar-scanner -Dsonar.login=squ_0df74914a393bdb6b73014e5480772839b92697c
                     '''
 }            }
         }
