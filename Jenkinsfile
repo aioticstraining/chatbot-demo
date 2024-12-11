@@ -8,10 +8,11 @@ pipeline {
         }
         stage('SonarQube Analysis') {
             steps {
-                withSonarQubeEnv('SonarQube Server') {
-                    sh 'sonar-scanner'
-                }
-            }
+              withSonarQubeEnv('SonarQube Server') {
+                    sh '''
+                sonar-scanner -Dsonar.login=$SONAR_TOKEN
+                    '''
+}            }
         }
         stage('Build Docker Image') {
             steps {
