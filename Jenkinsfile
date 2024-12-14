@@ -13,7 +13,6 @@ pipeline {
                     sonar-scanner \
                         -Dsonar.login=squ_0df74914a393bdb6b73014e5480772839b92697c \
                         -Dsonar.projectKey=chatbot-demo \
-                        -Dsonar.projectName=Chatbot Demo \
                         -Dsonar.projectVersion=1.0 \
                         -Dsonar.sources=.
                     '''
