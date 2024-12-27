@@ -24,23 +24,25 @@ pipeline {
                 sh 'docker build -t chatbot-app:latest .'
             }
         }
-        stage('Clean Up Existing Container') {
-            steps {
-                sh '''
-                # Stop and remove any running container with the name chatbot-app
-                if docker ps --filter "name=chatbot-app" --format "{{.ID}}" | grep -q .; then
-                    docker stop chatbot-app
-                    docker rm chatbot-app
-                fi
+ stage('Clean Up Existing Container') {
+    steps {
+        sh '''
+        # Stop and remove any running container with the name chatbot-app
+        if docker ps --filter "name=chatbot-app" --format "{{.ID}}" | grep -q .; then
+            docker stop chatbot-app
+            docker rm chatbot-app
+        fi
 
-                # Ensure port 5000 is free
-                if lsof -i:5000 | grep -q LISTEN; then
-                    echo "Port 5000 is in use. Cleaning up..."
-                    fuser -k 5000/tcp
-                fi
-                '''
-            }
-        }
+        # Remove dangling containers occupying the port
+        existing_container=$(docker ps -q --filter "publish=5000")
+        if [ ! -z "$existing_container" ]; then
+            echo "Found container using port 5000. Stopping and removing it..."
+            docker stop $existing_container
+            docker rm $existing_container
+        fi
+        '''
+    }
+}
         stage('Deploy') {
             steps {
                 sh 'docker run -d -p 5000:5000 chatbot-app:latest'
