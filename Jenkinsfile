@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/aioticstraining/chatbot-demo.git'
+               git branch: 'feature/testchanges', url: 'https://github.com/aioticstraining/chatbot-demo.git'
             }
         }
         stage('SonarQube Analysis') {
