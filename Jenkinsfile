@@ -10,9 +10,6 @@ pipeline {
             }
         }
         stage('SonarQube Analysis') {
-            when {
-                branch 'master'
-            }
             steps {
                 withSonarQubeEnv('SonarQube Server') {
                     sh '''
@@ -27,7 +24,7 @@ pipeline {
         }
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t chatbot-app:${BRANCH_NAME} .'
+                sh 'docker build -t chatbot-app:latest .'
             }
         }
         stage('Clean Up Existing Container') {
@@ -55,7 +52,7 @@ pipeline {
             }
             steps {
                 sh '''
-                docker run -d --name chatbot-app -p 5000:5000 chatbot-app:${BRANCH_NAME}
+                docker run -d --name chatbot-app -p 5000:5000 chatbot-app:latest
                 '''
             }
         }
