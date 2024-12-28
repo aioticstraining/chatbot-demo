@@ -7,3 +7,87 @@
 [33mPress CTRL+C to quit[0m
 118.151.210.163 - - [03/Dec/2024 17:17:33] "GET / HTTP/1.1" 200 -
 118.151.210.163 - - [03/Dec/2024 17:17:51] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/home/ubuntu/chatbot-demo/app.py", line 1, in <module>
+    from flask import Flask, request, jsonify
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "/home/ubuntu/chatbot-demo/app.py", line 1, in <module>
+    from flask import Flask, request, jsonify
+ModuleNotFoundError: No module named 'flask'
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.40.151:5000
+[33mPress CTRL+C to quit[0m
+49.205.241.226 - - [07/Dec/2024 13:34:02] "GET / HTTP/1.1" 200 -
+49.205.241.226 - - [07/Dec/2024 13:34:09] "GET / HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+49.205.241.226 - - [07/Dec/2024 13:35:27] "GET / HTTP/1.1" 200 -
+49.205.241.226 - - [07/Dec/2024 13:35:29] "GET / HTTP/1.1" 200 -
+49.205.241.226 - - [07/Dec/2024 13:42:31] "GET / HTTP/1.1" 200 -
+49.205.241.226 - - [07/Dec/2024 13:42:34] "GET / HTTP/1.1" 200 -
+49.205.241.226 - - [07/Dec/2024 13:42:48] "GET / HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 135-992-047
+ * Detected change in '/home/ubuntu/chatbot-demo/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 135-992-047
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.39.190:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 456-320-399
+49.205.241.226 - - [08/Dec/2024 08:47:09] code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\x9a\x9a\x00\x00\x00+\x00\x07\x06jj\x03\x04\x03\x03\x00#\x00\x00ÿ\x01\x00\x01\x00\x00')
+49.205.241.226 - - [08/Dec/2024 08:47:09] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03ºÔ\x9aFi\x1dK9\x8fõÖ?â§êáùÛ×±×®ðÈ_F&H\x85ÿ\x06Ú \x16M\x0cÓ\x04\x01ÇY·û\x0bñN+Eþ\x14UÖ\x10|\x90ô.È\x82\x08g\x83³Ñr\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\x9a\x9a\x00\x00\x00+\x00\x07\x06jj\x03\x04\x03\x03\x00#\x00\x00ÿ\x01\x00\x01\x00\x00[0m" 400 -
+49.205.241.226 - - [08/Dec/2024 08:47:09] code 400, message Bad request version ('\x13\x08:\x95\x1b]Û\x07p\x19»^¦·©j\x16Ö\x909ß\x87¸±a#\x8b\x12{úì®°&(ü!exÔX6CÉ2àWív')
+49.205.241.226 - - [08/Dec/2024 08:47:09] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03ªSU·fO\x09\x8b/¦*;l@D\x10¿%£\x85C\x9frÅ¤êüF\x00Î¶ì <\x1c\x0eÊ*ÛGËà\x9fæ\x15ðUªéü/\x99CyÔ\x06Õ/\x8fSiGn\x88~\x00 \x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93êê\x00\x00\x00\x17\x00\x00\x00\x12\x00\x00\x003\x04ï\x04íÚÚ\x00\x01\x00\x11ì\x04ÀQ¸S~\x8bp\\[3\x83û\x8e\x9bµ \x17õÍp|`ÀR9Í©\x82\x0dØ¶\x19Å\x9b!'\x1b×ÖW\\V#²\x07¼õD~H\x106où^Èùm\x93r\x9au°Ã\x94°1ÄyÏ6sÎ(×\x14\x8a\x00tée?º\x07\x83=i}\x7fl~\x9f¸­iõÉ\x91\x01?\x0dy\x16;0HðÕ\x04Ê»ÃC\x0b\x0fÒ;ªrÊ\x80D\x09nª`K@ ­¯\x99=&·>í*2\x8e\x92gU¶\x95¾p\x8fêY'ä\x88a\x02 C\x98f(sk K\x1bM)\x80&05!ùÄ\x8dÝñ ÅÚsg[\x83\x99 Y¶Ñ\x9bJ©*ø\x91]õ)i6¢.ê±n¯¼¡¬©ËPÙ¥A\x1c&Õñ\x95\x97ô9 h\x9d\x1b\x185\x92[\x95lx[\x09{¯¥`*\x1aÈ\x1e±\x06\x8aÎ\x87\x05j\\\x1cÛÃ\x92ìó\x7f^Ë\x17½é.\x92+_ÿP\x82Bè­\x08Q\x94K¬x3ãÌß«­\x13\x94p{¡\x8eã\x91·ñrqØ§Æ\x07\x8adks8\x1cØQì÷@3Á\x1eZ\x07¤\\u\x1b\x15°¼\x09\x13\x08:\x95\x1b]Û\x07p\x19»^¦·©j\x16Ö\x909ß\x87¸±a#\x8b\x12{úì®°&(ü!exÔX6CÉ2àWív[0m" 400 -
+49.205.241.226 - - [08/Dec/2024 08:47:09] code 400, message Bad request version ('ù©:&+\x0f2/¤q=')
+49.205.241.226 - - [08/Dec/2024 08:47:09] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x9añ\x8f>MÈ'\x0c~Ýë\x07Ì!Ñ¹~\x0b\x8a\x11R\x84Ûpä¤\x03¡T Yh 7Þï&\x9fï\x94\x89Õ\\Ãd6O\x14' \x87³ÊS& 07Òb\x98¹ÚÃà\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063êê\x00\x00\x00+\x00\x07\x06\x1a\x1a\x03\x04\x03\x03ÿ\x01\x00\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00Di\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01\x003\x04ï\x04íºº\x00\x01\x00\x11ì\x04À¢¦\x1bË\x81\x09²¬n\x1b3NÍ\x8c­\x98\x81m\x1a\x88]Rè^}1\x10(<\x182wYÕ\x16±¦\x1c¢æi¬6±+\x99\x16\x04©&/à;Ég7\x05Äc\x19Ús\x96zAee\x13\x97ø¨\x16M\x02c\x95X\x8f\x86\x93¾ZÒ"²µ²ý\x11Q\x99ê£oQ®kÉc-ö\x123\x03\x11óÈ½(b\x9e¬F\x8f-\x97H\x8f\x15E¾#_\x03`?Ï\x8aJ\x14øLóµË\x0dù©:&+\x0f2/¤q=[0m" 400 -
+49.205.241.226 - - [08/Dec/2024 08:47:10] code 400, message Bad request version ('è,\x16%~óÚ\x84«\x16è:Î\x1a\x00\x90¨N\x877S')
+49.205.241.226 - - [08/Dec/2024 08:47:10] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03c0é}\x94Eµ\x19~\x95ùµ[Ü¨%yÍÏK{\x81Ð\x0d$\x86|«FÖÅ§ ¥!B9Ää¾\x0cÈPÒñÚ\x8c8\x12\x0b£\x18|åp©\x0ekÁ·v.)xó\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063::\x00\x00\x00-\x00\x02\x01\x01þ\x0d\x00º\x00\x00\x01\x00\x01/\x00 çb·ãÉøÄbÙÀtÀíp\x82Kx\x1cè,\x16%~óÚ\x84«\x16è:Î\x1a\x00\x90¨N\x877S[0m" 400 -
+49.205.241.226 - - [08/Dec/2024 08:47:10] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06')
+49.205.241.226 - - [08/Dec/2024 08:47:10] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03e«\x15qý\x10\x02\x8càN£up8\x88;8ÐÉà[\\¢[0m" 400 -
+49.205.241.226 - - [08/Dec/2024 08:47:10] code 400, message Bad request version ('å"³LÏ~¬\x80Cvc\x04#ÁìÌQZT')
+49.205.241.226 - - [08/Dec/2024 08:47:10] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03p\x93\x85à\x88·\x16eê\x0599\x9a\x8d¶þNÖI\x0fõ®|\x06_\x1ew\x9ftz\x89  ©úêñÎE\x807ÈP¼ÍÆû)ëQ/×I§X+{Öó\x98u\x0e\x94Ì9\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sêê\x00\x00\x003\x04ï\x04í\x1a\x1a\x00\x01\x00\x11ì\x04Àf¼\x17ÔÂ>@\x96Ìfk\\ÛÁ4Øç6×ó\x07þ\x04ÄÂ´Ê\x8cÐ"\x84*_Qy1ÔÆP£È¨ü,Ê¸I\x0do\x17y2\x0b+ôsµ\x16¬=V×\x94^{\x05ìÌ\x8dYBzÌÕ\x0c¬[I\x14¼\x98\x09\x07RZÊ\x13ât\x86Î§a Ë¥\x19\x1cWrcÊ£ú®ÿ\x18}\x857\x01NãÄýÂKÇ2\x01å|\x80[Ìz{ö\x95\x1d¬1ëAQ"41 ´!\x07ó&sá\x80Ø\x89\x18ÇÑv¦\x19\x1b]\x1a\x15Æ\x07D\x93¥\x9cv¸J\x0b\x17\x99¡¶Ãg©¼Fh\x88\x95+WaçAßzÌÔÙ¯\x8fº\x15ÿÔ\x8as«e×°µNô=+rrõ\x9aDVé½Ò\x12G\x93Ü\x0bL\x87\x12fÌ7ô1L\x82\x84\x18\x03äPiº¯a;SPvÏ¹r'\x15k0\x8b\x07\x9f å"³LÏ~¬\x80Cvc\x04#ÁìÌQZT[0m" 400 -
+49.205.241.226 - - [08/Dec/2024 08:47:12] code 400, message Bad request version ('¡')
+49.205.241.226 - - [08/Dec/2024 08:47:12] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03!¹þC\x0fþé\x12;¤·¢©/]\x90ìÐç%M\x13ìlqÀa\x98\x9agÎà +o\x97¢+U\x09£ö«\x86\x03\x92¡ÎçK\x84\x1f\x00eÍ\x1d½¸Óªm.@Hõ\x00 ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ºº\x00\x00\x00+\x00\x07\x06::\x03\x04\x03\x03\x00\x17\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1ÿ\x01\x00\x01\x00\x00-\x00\x02\x01\x01Di\x00\x05\x00\x03\x02h2þ\x0d\x00º\x00\x00\x01\x00\x01g\x00 wîzV½|â<bÇ\x01ñBsXa½ÄÇ\x83LIý¡òñè¼×§`l\x00\x90O\x16Ö\x91R§iÌ)ö»Ó\x85v¯@NûÆÒ\x17}+ò[á\x07,ô°\x16p\x0c\x05e\x818\x9aË6Ìñ¹ÀHc?\x18îHÜüÝ0\x93Gt.\x08\x02\x7f\x92ë&êÝÈ\x187*½Ý\x94Ôª\x84wÞ\x84±í\x11\x91¾u\x05iFB[*V«¾=\\}K\x08c\x80ft\x81\x03±¬\x19T#Ð\x1cr¾Ñ3\x00D\x88Yi¶\x91Ò#\x88#îw§mÉtÆÛ°#Ò¹\x0dup;\x80\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x003\x04ï\x04í\x9a\x9a\x00\x01\x00\x11ì\x04Àª\x99DÉS\x05\x07\x1c\x0dw\x97>dgaOAru\x93 Â\x84E\x93\x85Aqe¦é@\x9ewé}Ëµ5¶4-S\x03K²\x18K¤Ãg¸¶\x01DU\x95ÈÁsMv©5&\x17\x19éBÎAÃàµ\x87\x02´?Wµ¬zuv\x81ñ\x93\x99\x0b \x9a\x81\x15\x1bÅ\x8f9¥dUÛm\x0b·\x15&Û\x8c\x7f¹\x05§Ò?6±U(\x81\x1f¡[0m" 400 -
+49.205.241.226 - - [08/Dec/2024 08:47:12] code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x9a\x9a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+49.205.241.226 - - [08/Dec/2024 08:47:12] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03d­ÂÐ«\x95S\x86R\x18\x93µ\x94\x12¦\x9bçõ+*FqiÚéªìÁzq¹Î noBU\x94Ã'|\x129WâRX´\x9b\x17@wCø\x8bfg®\x0cßúI½j§\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x9a\x9a\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00[0m" 400 -
+49.205.241.226 - - [08/Dec/2024 08:47:12] code 400, message Bad request version ('f\x9c³»|þt\x88\x0fþ¬KçS£h`»¤<+a¼\x0f\x01|³D\x9eP\x87pÚJªÌÂ\x08uC\x83\x00\x12\x00\x00ÿ\x01\x00\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+49.205.241.226 - - [08/Dec/2024 08:47:12] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03¸ëò¥\x80|BRâÍRãÁçÄûw\x0dé!m+o\x87DÑ\x0fýÕt(\x9f \x15Rm´äõòÜ\x95èÑ¦ÂWT \x08U>p/\x80W\x07ÿ\x8a\x04\x1bvh\x857\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S\x8a\x8a\x00\x00\x00\x1b\x00\x03\x02\x00\x02Di\x00\x05\x00\x03\x02h2\x00#\x00\x00\x00-\x00\x02\x01\x01\x00+\x00\x07\x06jj\x03\x04\x03\x03\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x0b\x00\x02\x01\x00\x00\x17\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01þ\x0d\x00Ú\x00\x00\x01\x00\x01n\x00 à6ð\x04,\x91\x1289}m\x1b\x90+\x14WÛTÄ¶¢ùaþÚ§Õ\x0f6o0P\x00°\x0bôD\x9cq»1åN\x13ÇÚö\x9e\x0d-\x8dßq\x9dS!2éÃ\x1e\x8cùä\x1b1\x18L|\x19ò1ó:o%ñÅèñ\x96\x12u\x1c17w,\x94â\x94çc¬\x12»úfÏ\x1f)®H;ëzÏ'siD¤LàúzÖÕFû>\x08h&Öß±\x88\x97¡öó`'|8\x044lV\x16WøV.y,î\x07|®æ\x06C)Õ\x8c\x0c\x17ÀD\x9eF\x8dôÿ¦b\x09\x1ef\x9c³»|þt\x88\x0fþ¬KçS£h`»¤<+a¼\x0f\x01|³D\x9eP\x87pÚJªÌÂ\x08uC\x83\x00\x12\x00\x00ÿ\x01\x00\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00[0m" 400 -
+49.205.241.226 - - [08/Dec/2024 08:47:12] code 400, message Bad request version ('\x19\x8fQý\xad4')
+49.205.241.226 - - [08/Dec/2024 08:47:12] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03³\x9bò`# Ù\x11ñÔ«»Á t¸|ó\x12RZÖ\x87\x15\x12/\x06\x86\x00í\x96¡ ù8&Q'\x93\x81\x9aÊçÃ°æ\x93pAÀå \x19\x8fQý­4[0m" 400 -
+49.205.241.226 - - [08/Dec/2024 08:47:12] code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S::\x00\x00\x00')
+49.205.241.226 - - [08/Dec/2024 08:47:12] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x98ñ0ì>ä\x8ah\x0cb\x8fá\x03¨\x97üsü`c\x97èq³\x0cÔyîA\x03sH é\x05\x8a\x89£\x1bã5+\x97{\x93©«\x9d\x1515$-Óí"(1\x03Ñ\x93M\x1a¡\x09\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S::\x00\x00\x00[0m" 400 -
+49.205.241.226 - - [08/Dec/2024 08:47:12] code 400, message Bad request version (')u¿ÇeÂ\x12E\x81\x88¨ÊÇÃ')
+49.205.241.226 - - [08/Dec/2024 08:47:12] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03â \\\x92C\x8bÂSÛ¤+K#_e\x19R\x96\x91¹ëíA\x8bV\x1b\x11¬:u \x18 lÒ88»µ\x18ÇïKK"ì\x00µ\x1a+ê\x0fk\x81Ó\x83TtwÅ­\x04¨¡\x93\x00 ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sºº\x00\x00ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x003\x04ï\x04íZZ\x00\x01\x00\x11ì\x04Àz,ÃTµ\x16\x00\x98'§æ\x10¼&\x08,tJ·B^©Ø%\x86\x96\x13N÷\x89+fNî1ÄÊz(\x88\x96\x94\x96G]\x91°&Æñ|ÛÖ;4¬\x7fG\x86qît\x91ìE\x8aS4cIPcß°\x02\x1c\x9aÎ31\x86#\x89³FÖ¢\x99:7Jp\x96\x88 i\x03rW&%v\x01\x82póöl\x98Ñ\x8aÍá\x1f@Gu\x08FTÙcQ\x8b\x88Ã\x0fà(.\x99Ì1°Àÿ\x13@«÷(\x82\x0cJñ¦AÓ¶\x94\x0dRN¶±\x95:Kvgy·\x13<T²\x14U\x09ùcå@¡úª¤e\x18J'uG4RRa\x15Kº«\x1fj@\x028Óu¤â>yÃ+½³µ\x8e\x96\x8e\x81ä«ôá8kÄ³Ðæ¿\x09¤JN\x89\x9a\x8aá·®5\x0fÎä³Þ¥Z\x1ciÌ»\x9a~\x9dâA\x9dx\x18ê`¨;z£\x90h7v\x06¥´wdØ@±\x00\x00\x08\x90v<´\x8c¥þã·û!\x96Ñü°\x85ú\x1eBb\x9cí\x83\x930¢\x0cÉò£eû\x1eÑt\x1c0õlU*h3\x83}ìã_c\x83_÷%0\x90Ç@\x08õ[Á|\x90iì!½Ògµ\x1b\x98¹\x10\x9e\x95\x80F\x0dLY!\x10u@\x83%L¡Æêe\x16o\x17\x03\x9d\x801O°\x0f(g\x9aàõ\x01¡tc\x92Û¦6Ä_\x02lIÞÊ\x86\x1359þÃ\x1föIV¶H\x01\x1d|X\x1c\x91Ç\x7få\x11\x18K=¯ã"$\x1a¹çH±\x0cÂ=J@\x87\x83øÊò@\x8eø\x99£QU\x7f.«\x93\x99\x94^§\x15X\x7f\x98\x1e?çGV*0\x11É<«\x84¬\x82I\x05|ãwËÄÏ§1-dD[\x9d`\x05\x89\x8a\x03|&Pâr#'t^K²\x8c{¢Jt\x9c^¤[|\x0d)u¿ÇeÂ\x12E\x81\x88¨ÊÇÃ[0m" 400 -
+49.205.241.226 - - [08/Dec/2024 08:47:57] "GET / HTTP/1.1" 200 -
+49.205.241.226 - - [08/Dec/2024 08:47:57] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06')
+49.205.241.226 - - [08/Dec/2024 08:47:57] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03t¶°ØF:\x97ºÊ·ºÛGÐg\x81Ú·{õ:[0m" 400 -
+49.205.241.226 - - [08/Dec/2024 08:47:57] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06')
+49.205.241.226 - - [08/Dec/2024 08:47:57] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03ã[0m" 400 -
+198.235.24.146 - - [08/Dec/2024 08:57:35] "GET / HTTP/1.0" 200 -
+57.152.56.121 - - [08/Dec/2024 10:26:08] "[33mGET /v2/ HTTP/1.1[0m" 404 -
+49.205.241.226 - - [08/Dec/2024 15:17:55] "GET / HTTP/1.1" 200 -

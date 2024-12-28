@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Define a root route to handle requests to "/"
 @app.route('/')
 def home():
-    return "Welcome to the AIOTICS DevOps Chatbot!", 200
+    return "Welcome to the AIOTICS DevOps Chatbot-TestSuccess!", 200
 
 # Define a chatbot endpoint
 @app.route('/chat', methods=['POST'])
@@ -25,5 +25,5 @@ def chat():
 
 # Run the app
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000,debug=True)
 
